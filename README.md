@@ -6,7 +6,7 @@ smol-agent, способный решать задачи из бенчмарка
 * мультишаговый агент (`smolagents.CodeAgent`) с инструментами:
   ­- веб-поиск, Python-exec, (при желании) собственные LlamaIndex-RAG-запросы;
 * скрипт скачивания поднабора GAIA и оценка точности (≥ 30 % на level-1).
-
+* в качестве базовой модели используется chatgpt4.1-mini
 ## Установка
 ```bash
 git clone https://github.com/papafranchesco/agent_hf.git
