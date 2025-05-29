@@ -1,0 +1,7 @@
+llama-index
+#git+https://github.com/smol-ai/smol-agent.git
+smolagents[openai]
+openai
+python-dotenv
+duckduckgo-search
+

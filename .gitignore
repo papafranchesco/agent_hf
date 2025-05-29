@@ -1,0 +1,5 @@
+tasks/
+.env
+.env.*
+evaluate.log
+.idea/
