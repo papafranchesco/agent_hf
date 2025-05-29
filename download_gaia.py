@@ -8,7 +8,7 @@ ds = load_dataset(
     trust_remote_code=True,
 )
 
-subset = random.sample(list(ds), k=len(ds))   # весь сплит или меньше
+subset = random.sample(list(ds), k=len(ds))
 pathlib.Path("tasks").mkdir(exist_ok=True)
 
 with open("tasks/gaia_level1_val.json", "w", encoding="utf-8") as f:
